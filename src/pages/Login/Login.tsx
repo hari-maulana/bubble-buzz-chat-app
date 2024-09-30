@@ -5,7 +5,7 @@ import assets from "../../assets/assets";
 const Login = () => {
   return (
     <div className="login">
-      <img src={assets.logo_big} alt="logo" />
+      <img className="login-logo" src={assets.logo_big} alt="logo" />
       <form action="" className="login-form">
         <h2>Sign Up</h2>
         <input
@@ -30,6 +30,11 @@ const Login = () => {
         <div className="login-term">
           <input type="checkbox" />
           <p>Agree to terms of use & privacy policy.</p>
+        </div>
+        <div className="login-forgot">
+          <p className="login-toggle">
+            Already have an account? <span>click here</span>
+          </p>
         </div>
       </form>
     </div>
