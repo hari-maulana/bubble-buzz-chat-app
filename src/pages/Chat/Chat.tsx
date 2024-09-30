@@ -6,10 +6,11 @@ import "./Chat.css";
 const Chat = () => {
   return (
     <div className="chat">
-      <div className="chat-container"></div>
-      <LeftSidebar />
-      <ChatBox />
-      <RightSideBar />
+      <div className="chat-container">
+        <LeftSidebar />
+        <ChatBox />
+        <RightSideBar />
+      </div>
     </div>
   );
 };
