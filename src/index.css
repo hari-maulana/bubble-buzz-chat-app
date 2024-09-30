@@ -6,3 +6,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
