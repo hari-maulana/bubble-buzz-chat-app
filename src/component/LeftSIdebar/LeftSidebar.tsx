@@ -17,13 +17,17 @@ const LeftSidebar = () => {
         </div>
       </div>
       <div className="ls-list">
-        <div className="friends">
-          <img src={assets.profile_img} alt="" />
-          <div>
-            <p>Gaga Richard</p>
-            <span>online meeeeee</span>
-          </div>
-        </div>
+        {Array(10)
+          .fill("")
+          .map((item, index) => (
+            <div key={index} className="friends">
+              <img src={assets.profile_img} alt="" />
+              <div>
+                <p>Gaga Richard</p>
+                <span>online meeeeee</span>
+              </div>
+            </div>
+          ))}
       </div>
     </div>
   );
