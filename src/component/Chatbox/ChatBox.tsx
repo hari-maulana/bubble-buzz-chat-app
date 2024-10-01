@@ -8,7 +8,7 @@ const ChatBox = () => {
       <div className="chat-user">
         <img src={assets.profile_img} alt="" />
         <p>
-          Gaga Richard <img src={assets.green_dot} alt="" />
+          Gaga Richard <img className="dot" src={assets.green_dot} alt="" />
         </p>
         <img src={assets.help_icon} alt="" />
       </div>
