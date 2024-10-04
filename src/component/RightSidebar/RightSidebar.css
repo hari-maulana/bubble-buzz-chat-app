@@ -39,3 +39,23 @@
   border-color: #ffffff50;
   margin: 16px 0;
 }
+
+.rs-media {
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+.rs-media div {
+  max-height: 180px;
+  overflow-y: scroll;
+  gap: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 8px;
+}
+
+.rs-media div img {
+  width: 60px;
+  border-radius: 4px;
+  cursor: pointer;
+}
