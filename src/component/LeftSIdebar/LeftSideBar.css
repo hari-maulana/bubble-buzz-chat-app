@@ -88,3 +88,18 @@
 .friends:hover span {
   color: white;
 }
+
+.ls-nav .menu {
+  position: relative;
+  padding: 10px 0px;
+}
+
+.menu .sub-menu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
