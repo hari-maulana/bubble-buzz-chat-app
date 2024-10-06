@@ -1,0 +1,8 @@
+.profile {
+  min-height: 100vh;
+  background: url(/src/assets/background.png) no-repeat;
+  backkground-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
