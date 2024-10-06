@@ -98,8 +98,26 @@
   position: absolute;
   right: 0;
   top: 100%;
+  width: 130px;
   padding: 20px;
   background-color: white;
   border-radius: 5px;
   color: black;
+  display: none;
+}
+
+sub-menu hr {
+  border: none;
+  height: 1px;
+  background-color: #a4a4a4;
+  margin: 8px 0;
+}
+
+.sub-menu p {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.menu:hover .sub-menu {
+  display: block;
 }
